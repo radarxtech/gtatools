@@ -1,5 +1,4 @@
-<script>
-      function lookup() {
+function lookup() {
   const insurance = document.getElementById("insurance").value;
   fetch("data.csv")
     .then(response => response.text())
