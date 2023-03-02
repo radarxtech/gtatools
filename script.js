@@ -8,7 +8,7 @@ function lookup() {
       for (let i = 1; i < rows.length; i++) {
         const columns = rows[i].split(",");
         console.log(columns);
-        if (columns[0] === insurance) {
+        if (columns[0] === `"${insurance}"`) {
           const result = `Homeowners: ${columns[1]}, Expanded Loan: ${columns[2]}`;
           document.getElementById("result").innerHTML = result;
           return;
