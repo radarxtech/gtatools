@@ -1,0 +1,29 @@
+{
+  "name": "gtatools",
+  "version": "1.0.0",
+  "description": "Garrow Title Agency Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/radarxtech/gtatools.git"
+  },
+  "keywords": [
+    "Title",
+    "Insurance",
+    "Homeowners",
+    "Expanded",
+    "Loan"
+  ],
+  "author": "radarte.ch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radarxtech/gtatools/issues"
+  },
+  "homepage": "https://github.com/radarxtech/gtatools#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
