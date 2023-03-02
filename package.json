@@ -4,6 +4,7 @@
   "description": "Garrow Title Agency Tools",
   "main": "index.js",
   "scripts": {
+    "build": "echo 'Nothing to build for HTML file.'",
     "test": "test"
   },
   "repository": {
