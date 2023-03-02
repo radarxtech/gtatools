@@ -1,5 +1,5 @@
 function lookup() {
-  const insurance = document.getElementById("insurance").value;
+  const insurance = document.getElementById("insurance").value.trim();
   fetch("data.csv")
     .then(response => response.text())
     .then(data => {
@@ -9,9 +9,7 @@ function lookup() {
         const columns = rows[i].split(",");
         console.log(columns);
         if (columns[0] === insurance) {
-          const homeowners = parseFloat(columns[1]).toFixed(2);
-          const loan = parseFloat(columns[2]).toFixed(2);
-          const result = `Homeowners: ${homeowners}, Expanded Loan: ${loan}`;
+          const result = `Homeowners: ${columns[1]}, Expanded Loan: ${columns[2]}`;
           document.getElementById("result").innerHTML = result;
           return;
         }
