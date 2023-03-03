@@ -59,6 +59,10 @@ input[type="button"] {
 }
 
 #result {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
   margin-top: 20px;
   font-size: 20px;
   color: white;
