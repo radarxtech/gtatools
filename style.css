@@ -1,9 +1,14 @@
 body {
-  margin: 0;
+  background-image: url(DallE.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
   padding: 0;
-  background-color: #0d47a1;
-  height: 100%;
+  margin: 0;
 }
+
 
 .container {
   display: flex;
